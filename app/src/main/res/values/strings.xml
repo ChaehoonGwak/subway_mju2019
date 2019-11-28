@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- activity_main.xml, menu_station_touch.xml -->
+    <string name="search">검색</string>
+    <string name="search_hint">역명 검색</string>
+    <string name="start_station">출발역</string>
+    <string name="end_station">도착역</string>
+    <string name="station_info">역정보</string>
+
+    <!-- activity_stn_info_pager.xml -->
+    <string name="stnNm">역이름</string>
+
+    <string name="stn_info_elevator">엘리베이터 정보</string>
+    <string name="num">번호</string>
+    <string name="section">운행구간</string>
+    <string name="place">설치장소</string>
+    <string name="no_ev_item">엘리베이터 정보 추가예정 입니다</string>
+
+    <string name="no_cg_item">혼잡도 정보 추가예정 입니다</string>
+
+    <string name="stn_info_basic">기본정보</string>
+    <string name="stn_info_map">엘리베이터 위치</string>
+    <string name="stn_info_ev_info">가까운 엘리베이터</string>
+    <string name="stn_info_etc">부가정보</string>
+    <string name="stn_info_cngst">시간별 혼잡도</string>
+    <string name="stn_info_timetable">시간표 보기</string>
+    <string name="route_guidance_alarm_start">알람설정하기</string>
+    <string name="route_guidance_alarm_stop">알람끄기</string>
+    <string name="alarm">알람</string>
+    <string name="settings_uncheck_all">모두선택해제</string>
+
+</resources>

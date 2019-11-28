@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277BD</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="list_bg">#ffffff</color>
+
+    <color name="selectedStnTextViewBg">#ffffff</color>
+
+    <color name="fabTint">#cc000e</color>
+    <color name="fabBackground">#c6ff9500</color>
+    <color name="favoriteTint">#faf2dd1d</color>
+
+    <!-- dialog_station_menu.xml -->
+    <color name="station_menu_icon">#ffd988</color>
+</resources>

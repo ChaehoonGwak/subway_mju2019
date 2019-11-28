@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost
+        android:id="@+id/tabHost1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- TabWidget의 id값이 반드시 "tabs"로 지정되어야 함. -->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- FrameLayout의 id값이 반드시 "tabcontent"로 지정되어야 함. -->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <!-- 첫 번째 페이지. content1 -->
+                <LinearLayout
+                    android:id="@+id/content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:background="@color/colorPrimaryDark">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:text="출발역"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="도착역"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:gravity="center_horizontal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/startStnText1"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:textColor="#ffffff"
+                            android:textSize="22sp"
+                            android:gravity="center"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/endStnText1"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:textColor="#ffffff"
+                            android:textSize="22sp"
+                            android:gravity="center"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/routeStnTextView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100px"></TextView>
+
+                    <Button
+                        android:id="@+id/share_lit"
+                        android:text="카카오톡 공유하기"
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:onClick="btnClick" />
+                </LinearLayout>
+
+
+                <!-- 두 번째 페이지. content2 -->
+                <LinearLayout
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:background="@color/colorPrimaryDark">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:text="출발역"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="도착역"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:gravity="center_horizontal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/startStnText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:textColor="#ffffff"
+                            android:textSize="22sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/endStnText2"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:textColor="#ffffff"
+                            android:textSize="22sp"></TextView>
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/routeStnTextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TextView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
